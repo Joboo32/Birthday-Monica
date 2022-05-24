@@ -37,12 +37,12 @@ h2 {
 
 p {
   color: #fff;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 ul {
   color: #000;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 hr {
@@ -69,8 +69,8 @@ hr {
   color: #fff;
   font-family: "Dancing Script", sans-serif;
   font-weight: bold;
-  font-size: 5rem;
-  line-height: 1.5;
+  font-size: 6rem;
+  line-height: 1.2;
   margin-top: 300px;
   margin-right: 75px;
   float: right;
@@ -111,7 +111,7 @@ hr {
 
 .nav-link {
 
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Montserrat";
   font-weight: bold;
 }
@@ -155,11 +155,16 @@ hr {
 
 .story-box {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+
+article > p {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 
@@ -170,8 +175,8 @@ hr {
 /* Agenda */
 
 #agenda {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #F2F2F2;
   scroll-margin-top:200px;
 }
@@ -224,7 +229,7 @@ hr {
 /* General Information */
 
 #general-info {
-  padding: 100px 50px;
+  padding: 120px 50px;
   background-color: #000;
   scroll-margin-top:200px;
 }
@@ -234,7 +239,7 @@ hr {
 /* Weather and Activities #ff4c68*/
 
 #activities {
-  padding: 100px 50px;
+  padding: 120px 50px;
   background-color: #F2F2F2;
   scroll-margin-top:200px;
 }
@@ -314,5 +319,5 @@ hr {
 }
 
 #footer>a>i {
-  margin: 0 0.5rem 1rem;
+  margin: 0 1rem 1rem;
 }
