@@ -45,6 +45,11 @@ ul {
   font-size: 24px;
 }
 
+hr {
+  margin-top: 20px!important;
+  margin-bottom: 24px;
+}
+
 /* Title */
 
 #title {
@@ -66,16 +71,23 @@ ul {
   font-weight: bold;
   font-size: 5rem;
   line-height: 1.5;
-  position: absolute;
-  top: 300px;
-  right: 75px;
-  z-index: 1;
+  margin-top: 300px;
+  margin-right: 75px;
+  float: right;
 }
 
 .titleDiv {
   height: 118px;
   color: #C4B187;
 }
+
+#background-intro {
+  width: 100%;
+  min-height: 1200px;
+  background: url("../img/ma.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 
 
 /* Navigation Bar */
@@ -100,36 +112,33 @@ ul {
 .nav-link {
 
   font-size: 1.2rem;
-  font-family: "Montserrat-light";
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
-/* Download Buttons */
-
-.download-btn {
-  margin: 5% 3% 5% 0%;
-}
 
 /* Title Image */
 
-.title-img {
+/* .title-img {
   position:relative;
   padding: 0;
   width: 100%;
-}
+} */
+
 
 /* Story Section */
 
 #story {
   background-color: #000;
-  min-height: 100vh;
   scroll-margin-top:200px;
 }
 
-#background-story {
-  height: auto;
-  background: url("../img/background-story.png") no-repeat center center;
+/* #background-story {
+  width: 100%;
+  min-height: 1200px;
+  background: url("../img/ma.jpg") no-repeat center center;
   background-size: cover;
-}
+} */
 
 
 #ma {
@@ -146,8 +155,8 @@ ul {
 
 .story-box {
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
@@ -161,9 +170,10 @@ ul {
 /* Agenda */
 
 #agenda {
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #F2F2F2;
+  scroll-margin-top:200px;
 }
 
 .background-rest {
@@ -214,8 +224,9 @@ ul {
 /* General Information */
 
 #general-info {
-  padding: 80px 50px 60px;
+  padding: 100px 50px;
   background-color: #000;
+  scroll-margin-top:200px;
 }
 
 
@@ -223,8 +234,9 @@ ul {
 /* Weather and Activities #ff4c68*/
 
 #activities {
-  padding: 80px 50px 60px;
+  padding: 100px 50px;
   background-color: #F2F2F2;
+  scroll-margin-top:200px;
 }
 
 .actStyle {
@@ -233,6 +245,7 @@ ul {
 
 #moreQuestions {
   color: #000;
+  font-size: 28px;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
@@ -241,11 +254,13 @@ ul {
 /* Testimonials */
 
 #testimonials {
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 40px;
   text-align: center;
   background-color: #C4B187;
   color: #fff;
+  min-height: 850px;
+  scroll-margin-top:200px;
 }
 
 .carousel-item h1 {
@@ -253,7 +268,7 @@ ul {
 }
 
 .testimonial-img {
-  width: 40%;
+  width: 65%;
   margin: 20px;
 }
 
@@ -263,7 +278,7 @@ ul {
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.5rem;
+  font-size: 30px;
 }
 
 
@@ -287,6 +302,7 @@ ul {
   background-color: #000;
   text-align: center;
   padding: 4% 2.5% 2.5%;
+  scroll-margin-top:200px;
 }
 .fa-twitter, .fa-linkedin, .fa-instagram {
   color: white;
