@@ -8,6 +8,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 font-weight: bold;
 color: #fff;
+margin-bottom: 2rem;
 }
 
 h2 {
@@ -17,16 +18,18 @@ h2 {
 
 p {
   color: #fff;
+  font-size: 20px;
 }
 
 ul {
-  color: #fff;
+  color: #000;
+  font-size: 20px;
 }
 
 /* Title */
 
 #title {
-  background-color: #ff4c68;
+  background-color: #C47B49;
   color: #fff;
 }
 
@@ -40,9 +43,9 @@ ul {
 
 .title-heading {
   color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 4rem;
+  font-family: "Dancing Script", sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
   line-height: 1.5;
   position: absolute;
   top: 300px;
@@ -104,9 +107,14 @@ background-color: #fff;
 position: relative;
 } */
 
+
 .story-box {
   text-align: center;
-  padding: 4.5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 #story i {
@@ -121,8 +129,9 @@ position: relative;
 /* Agenda */
 
 #agenda {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FFC0D3;
 }
 
 .background-rest {
@@ -143,17 +152,24 @@ position: relative;
   text-align: center;
 }
 
-.intro-agenda>h1 {
+#agenda>.intro-agenda>h1 {
+  color: #000;
   font-size: 32px;
 }
 
 .agenda-core {
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .date {
+  text-align: center;
+}
+
+.dateAgenda {
+  color: #000;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -163,28 +179,33 @@ position: relative;
 
 .agenda-points {
   list-style: inside;
+  padding: 0;
 }
 
 
 /* General Information */
 
 #general-info {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 50px;
+  background-color: #000;
 }
+
+
 
 /* Weather and Activities */
 
 #activities {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 50px;
 }
 
+.actStyle {
+  color: #000;
+}
 
 /* Testimonials */
 
 #testimonials {
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 25px;
   text-align: center;
   background-color: #ff4c68;
