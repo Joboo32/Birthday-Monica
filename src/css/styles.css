@@ -3,7 +3,20 @@ font-family: 'Ubuntu', sans-serif; */
 
 body {
   font-family: "Montserrat";
+  padding:0;
+  margin:0;
 }
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
 font-weight: bold;
@@ -24,12 +37,12 @@ h2 {
 
 p {
   color: #fff;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 ul {
   color: #000;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 /* Title */
@@ -103,6 +116,7 @@ ul {
 
 #story {
   background-color: #000;
+  min-height: 100vh;
 }
 
 #background-story {
@@ -112,11 +126,12 @@ ul {
 }
 
 
-/* #features {
-padding: 7% 15%;
-background-color: #fff;
-position: relative;
-} */
+#ma {
+  color: #C4B187;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 30px;
+}
 
 #story i {
   color: #f0f0f0;
@@ -125,7 +140,7 @@ position: relative;
 
 .story-box {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -140,9 +155,10 @@ position: relative;
 /* Agenda */
 
 #agenda {
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 60px;
   background-color: #F2F2F2;
+  min-height: 100vh;
 }
 
 .background-rest {
@@ -152,7 +168,7 @@ position: relative;
 }
 
 #agenda i {
-  color: #FF4C68;
+  color: #000;
   margin-bottom: 1.5rem;
 }
 
@@ -193,8 +209,9 @@ position: relative;
 /* General Information */
 
 #general-info {
-  padding: 60px 50px;
+  padding: 80px 50px 60px;
   background-color: #000;
+  min-height: 100vh;
 }
 
 
@@ -202,7 +219,7 @@ position: relative;
 /* Weather and Activities #ff4c68*/
 
 #activities {
-  padding: 60px 50px;
+  padding: 80px 50px 60px;
   background-color: #F2F2F2;
 }
 
@@ -220,11 +237,12 @@ position: relative;
 /* Testimonials */
 
 #testimonials {
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   text-align: center;
-  background-color: #ff4c68;
+  background-color: #C4B187;
   color: #fff;
+  min-height: 100vh;
 }
 
 .carousel-item h1 {
@@ -232,7 +250,7 @@ position: relative;
 }
 
 .testimonial-img {
-  width: 35%;
+  width: 40%;
   margin: 20px;
 }
 
@@ -248,7 +266,7 @@ position: relative;
 
 /* Footer */
 
-#footer {
+/* #footer {
   background-color: #fff;
   text-align: center;
   padding: 4% 2.5% 2.5%;
@@ -259,5 +277,23 @@ position: relative;
 }
 
 #footer>i {
+  margin: 0 0.5rem 1rem;
+} */
+
+#footer {
+  background-color: #000;
+  text-align: center;
+  padding: 4% 2.5% 2.5%;
+}
+.fa-twitter, .fa-linkedin, .fa-instagram {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
+  transform: rotate(90deg);
+}
+
+#footer>a>i {
   margin: 0 0.5rem 1rem;
 }
