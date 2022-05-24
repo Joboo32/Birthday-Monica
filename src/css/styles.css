@@ -11,25 +11,31 @@ color: #fff;
 margin-bottom: 2rem;
 }
 
+h1 {
+  color:  #C4B187;
+  font-size: 40px;
+  font-weight: 900;
+}
+
 h2 {
-  font-size: 3rem;
+  font-size: 32px;
   line-height: 1.5;
 }
 
 p {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 ul {
   color: #000;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /* Title */
 
 #title {
-  background-color: #C47B49;
+  background-color: #C4B187;
   color: #fff;
 }
 
@@ -95,11 +101,16 @@ ul {
 
 /* Story Section */
 
+#story {
+  background-color: #000;
+}
+
 #background-story {
   height: auto;
   background: url("../img/background-story.png") no-repeat center center;
   background-size: cover;
 }
+
 
 /* #features {
 padding: 7% 15%;
@@ -107,20 +118,20 @@ background-color: #fff;
 position: relative;
 } */
 
+#story i {
+  color: #f0f0f0;
+  margin-bottom: 1.5rem;
+}
 
 .story-box {
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
 }
 
-#story i {
-  color: #f0f0f0;
-  margin-bottom: 1.5rem;
-}
 
 /* #features i:hover {
   color: #ff4c68;
@@ -129,9 +140,9 @@ position: relative;
 /* Agenda */
 
 #agenda {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #FFC0D3;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #F2F2F2;
 }
 
 .background-rest {
@@ -141,24 +152,20 @@ position: relative;
 }
 
 #agenda i {
-  color: #f0f0f0;
+  color: #FF4C68;
   margin-bottom: 1.5rem;
 }
 
 .intro-agenda {
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-#agenda>.intro-agenda>h1 {
-  color: #000;
-  font-size: 32px;
-}
 
 .agenda-core {
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -186,20 +193,28 @@ position: relative;
 /* General Information */
 
 #general-info {
-  padding: 50px;
+  padding: 60px 50px;
   background-color: #000;
 }
 
 
 
-/* Weather and Activities */
+/* Weather and Activities #ff4c68*/
 
 #activities {
-  padding: 50px;
+  padding: 60px 50px;
+  background-color: #F2F2F2;
 }
 
 .actStyle {
   color: #000;
+}
+
+#moreQuestions {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* Testimonials */
@@ -212,8 +227,12 @@ position: relative;
   color: #fff;
 }
 
+.carousel-item h1 {
+  color: #FFF;
+}
+
 .testimonial-img {
-  width: 30%;
+  width: 35%;
   margin: 20px;
 }
 
